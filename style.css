@@ -1,0 +1,149 @@
+html{
+    height: 100%;
+    background: radial-gradient(circle, #FFF, #CCC);
+}
+
+.text-center{
+    text-align: center;
+}
+
+#container{
+    box-sizing: border-box;
+    height: 440px;
+    width: 590px;
+    background: #9DD2EA;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 100px auto;
+    box-shadow: 0 4px 0 0 #009DE4;
+    position: relative;
+}
+
+#score{
+    background: #F1FF92;
+    color: #888E5F;
+    box-shadow: 0 4px #9DA853;
+    padding: 10px;
+    position: absolute;
+    right: 20px;
+    border-radius: 5px;   
+}
+
+#correct, 
+#wrong{
+    background: #42E252;
+    color: #FFF;
+    padding: 10px;
+    position: absolute;
+    left: 261px;
+    display: none;
+}
+#wrong{
+    background: #DE401A;
+    left: 245px;
+}
+
+#question{
+    width: 450px;
+    height: 150px;
+    margin: 50px auto 10px;
+    background: #9DA0EA;
+    box-shadow: 0 4px #535AAB;
+    border-radius: 7px;
+    line-height: 150px;
+    font-family: cursive, sans-serif;
+    font-size: 100px;
+}
+
+#information{
+    width: 450px;
+    height: 50px;
+    background: #B381D9;
+    box-shadow: 0 4px #8153AB;
+    margin: 10px auto;
+    border-radius: 7px;
+    line-height: 50px;
+}
+
+#choices{
+    width: 450px;
+    height: 90px;
+    margin: 10px auto;
+}
+.box{
+    width: 85px;
+    height: 85px;
+    background: #FFF;
+    line-height: 85px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+    float: left;
+    margin-right: 36px;
+    position: relative;
+    transition: all .2s linear;
+}
+#box4{
+    margin-right: 0;
+}
+#startreset:active,
+.box:active{
+    top: 4px;
+    background: #9C89F6;
+    box-shadow: 0 0;
+    color: #FFF;
+}
+
+#startreset{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    box-shadow: 0 4px rgba(0, 0,0, 0.2);
+    margin: 0px auto;
+    cursor: pointer;
+    position: relative;
+    transition: all .2s linear;
+}
+
+#timeremaining{
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    bottom: 7px;
+    right: 20px;
+    
+    background: #AFE64B;
+    border-radius: 7px;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+    
+    display: none;
+}
+
+#gameover{
+    width: 500px;
+    height: 200px;
+    background: linear-gradient(#F3C76B, #F3746C);
+    color: #FFF;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    position: absolute;
+    top: 110px;
+    left: 45px;
+    z-index: 999;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
